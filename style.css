@@ -1,0 +1,269 @@
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+}
+header {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #dd8489;
+  color: #ffffff;
+}
+.nav {
+  position: fixed;
+  right: 25px;
+  top: 5px;
+}
+.nav_ul {
+  display: flex;
+  gap: 1px 14px;
+}
+.nav_a {
+  padding: 8px 16px;
+  background-color: #8acf92;
+  border-radius: 13px;
+  text-decoration: none;
+  color: black;
+}
+.nav_li {
+  list-style: none;
+}
+.hd_img {
+  height: 500px;
+  max-height: 500px;
+  width: 70%;
+  min-width: 20px;
+  max-width: 400px;
+  object-fit: cover;
+}
+.hd_logo {
+  position: fixed;
+  left: 1px;
+  top: 10px;
+  width: 140px;
+  height: 120px;
+  object-fit: cover;
+}
+.Eslogan {
+  display: flex;
+  margin: 20px auto 0px auto;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_hd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0;
+}
+.button_hd {
+  background: transparent;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 19px;
+  color: white;
+}
+.button_hd:hover {
+  background-color: #e63946; /* Cambia a rojo frambuesa al pasar el mouse */
+  color: #ffffff; /* Texto blanco */
+}
+.sabor {
+  display: flex;
+  align-items: center;
+  gap: 30px 60px;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.somos {
+    margin: 40px 0 0 0 ;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 13px;
+  }
+  .somos h3{
+  color: #000000;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom: .3px solid;
+  text-align: center;
+  width: 100%;
+  
+  }
+  .cont_Somos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    max-width: 450px;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 29px 29px 15px #d7d7d7, -29px -29px 15px #e9e9e9;
+    margin: 49px;
+  }
+  .scroll {
+    overflow: auto;
+  }
+  .Text_his {
+    width: 100%;
+    padding: 13px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont_Somos img{
+    height: 200px;
+    width: 50%;
+    object-fit: cover;
+    border: solid black;
+    border-radius: 29px;
+  }
+.memelada_manzana {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.info {
+  max-width: 980px;
+  width: 60%;
+  min-width: 300px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 22px 0px;
+    background-color:rgb(245, 245, 220) ;
+}
+.img_fruta,
+.img_prod {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  border-radius: 13px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 13px 7px;
+}
+.grid_form {
+  display: grid; /* Activa el Grid Layout */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px; /* Espacio entre filas y columnas */
+  place-items: center;
+  gap: 13px;
+}
+
+input {
+    padding: 13px;
+    border-radius: 13px;
+    border: 0;
+    background-color: aliceblue;
+    color: white;
+    font-size: 16px;
+    transition: .5s ease;
+}
+label {
+    display: contents;
+}
+button {
+    padding: 12px 24px;
+    border-radius: 17px;
+    background-color: rgb(151, 152, 153);
+
+    color: white;
+    border: 0;
+}
+/* Collaborators Section */
+.collaborators {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 23px 2px;
+  }
+  
+  .collaborator {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+  }
+  
+  .collaborator img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .collaborator h3 {
+    margin: 15px 0 5px;
+    color: #333;
+  }
+  
+  .collaborator p {
+    margin: 0;
+    color: #777;
+  }
+footer {
+    background-color: #d9d9d9; /* Fondo gris claro */
+    color: #000000; /* Texto verde */
+    text-align: center;
+    width: 100%;
+}
+@media (prefers-color-scheme: dark) {
+    main  {
+        background: #2a2a2a;
+        color: rgb(255, 255, 255);
+    }
+    a {
+        color: rgb(255, 255, 255);
+    }
+    .nav_a {
+        background-color: #444343;
+        color: rgb(255, 255, 255);
+    }
+    input{
+        background-color: #4e4e4e;
+    }
+    button{
+        background: #575656;
+    }
+    .cont_Somos {
+      background: linear-gradient(145deg, #262626, #2c2c2c);
+      box-shadow: 29px 29px 15px #323232, -29px -29px 15px #383838;
+    }
+    .collaborator {
+      background-color: rgb(47, 47, 47);
+      color: #fff;
+    }
+    .collaborator h3{
+      color: #fff;
+    }
+}
+
