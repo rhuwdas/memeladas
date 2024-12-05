@@ -9,16 +9,18 @@
 <body>
     <header>
         <img src="img/logo.png" class="hd_logo" alt="">
-        <img src="img/fresa 2.png" alt="" class="hd_img">
+        <a href="#">
+            <img src="img/fresa 2.png" alt="" class="hd_img">
+        </a>
         <nav class="nav nav_telD">
             <ul class="nav_ul">
-                <a class="nav_a" href="#">
-                    <li class="nav_li">Sobre nosotros</li>
-                </a>
-                <a class="nav_a" href="#">
+                <a class="nav_a" href="#prod">
                     <li class="nav_li">productos</li>
                 </a>
                 <a class="nav_a" href="#sobre">
+                    <li class="nav_li">Sobre nosotros</li>
+                </a>
+                <a class="nav_a" href="#footer">
                     <li class="nav_li">contactanos</li>
                 </a>
                 
@@ -53,7 +55,7 @@
             <section>
             </section>
         </article>
-        <section class="productos">
+        <section class="productos" id="prod">
             <div class="sabor memelada_fresa">
                 <div class="info">
                     <h4>Memelada de fresa</h4>
@@ -70,8 +72,8 @@
             </div>
             </div>
             </section>
-            <section class="somos">
-                <p>Nuestra filosofa es la siguiente</p>
+            <p>Nuestra filosofa es la siguiente</p>
+            <section class="somos" id="sobre">
                 <article class="cont_Somos mission">
                     <h3>Misión</h3>
                     
@@ -98,7 +100,7 @@
             
         <section class="abaut_us">
             <form action="">
-                <h3 class="title">Registrar computadora</h3>
+                <h3 class="title">producto</h3>
                 <div class="grid_form">
 
                     <label for="">Nombre
@@ -107,10 +109,10 @@
                     <label for="">¿Que le parece el producto?
                         <input type="text" name="producto">
                     </label>
-                    <label for="">¿?
+                    <label for="">¿Que recomenaciones le brindaria al prodcuto o empresa?
                         <input type="text" name="">                
                     </label>
-                    <label for="">¿?
+                    <label for="">¿Que califiacion de daria al producto?
                         <select name="" id="">
                             <option value="">1</option>
                             <option value="">2</option>
@@ -124,17 +126,17 @@
             </form>
             <section class="collaborators">
                 <div class="collaborator">
-                  <img src="colaborador1.jpg" alt="Foto de Colaborador 1">
+                  <img src="img/icono.webp" alt="Foto de Colaborador 1">
                   <h3>Emmanuel Fernando Chimil Pacheco</h3>
                   <p>Ingeniero en informatica</p>
                 </div>
                 <div class="collaborator">
-                  <img src="colaborador2.jpg" alt="Foto de Colaborador 2">
+                  <img src="img/icono.webp" alt="Foto de Colaborador 2">
                   <h3>Alondra Elizabeth Martinez Garcia</h3>
                   <p>Ingeniera en informatica</p>
                 </div>
                 <div class="collaborator">
-                  <img src="colaborador3.jpg" alt="Foto de Colaborador 3">
+                  <img src="img/icono.webp" alt="Foto de Colaborador 3">
                   <h3>Citlali Hernandez Ruiz</h3>
                   <p>Ingeniera en informatica</p>
                 </div>
@@ -142,11 +144,32 @@
         </section>
         <section class="contantanos"></section>
     </main>
-    <footer>
-        <p>Derechos reservados a </p>
-        <div class="icons_footer">
-
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+          <div class="footer-section">
+            <h4>Sobre Nosotros</h4>
+            <p>Somos una empresa dedicada a la innovación y calidad en nuestros productos.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces Útiles</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#prod">Productos</a></li>
+              <li><a href="#sobre">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=61569585253634&mibextid=ZbWKwL"><img src="img/facebook.png" alt="Facebook"></a>
+              <a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a>
+              <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            </div>
+          </div>
         </div>
-    </footer>
+        <div class="footer-bottom">
+          <p>&copy; Mermelosa. Todos los derechos reservados.</p>
+        </div>
+      </footer>
 </body>
 </html>
